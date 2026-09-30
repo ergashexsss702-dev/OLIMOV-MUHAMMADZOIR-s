@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="mz-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="50%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+  </defs>
+  <!-- Background with subtle border -->
+  <rect width="64" height="64" rx="14" fill="url(#bg-grad)" stroke="#1e293b" stroke-width="2"/>
+  
+  <!-- Subtle glowing glow inside -->
+  <circle cx="32" cy="32" r="22" fill="#06b6d4" opacity="0.12" filter="blur(4px)"/>
+  
+  <!-- Left Code Bracket -->
+  <path d="M16 24 L10 32 L16 40" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- MZ Text Monogram -->
+  <text x="31" y="38" font-family="'JetBrains Mono', monospace" font-size="20" font-weight="800" fill="url(#mz-grad)" text-anchor="middle" letter-spacing="-1">MZ</text>
+  
+  <!-- Right Code Bracket -->
+  <path d="M48 24 L54 32 L48 40" fill="none" stroke="#a855f7" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Small pulsing terminal dot -->
+  <circle cx="48" cy="18" r="2.5" fill="#10b981"/>
+</svg>

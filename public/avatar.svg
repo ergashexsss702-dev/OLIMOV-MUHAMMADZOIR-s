@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320">
+  <defs>
+    <linearGradient id="av-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="av-accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="50%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+    <radialGradient id="av-glow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="320" height="320" rx="48" fill="url(#av-bg)"/>
+  <circle cx="160" cy="140" r="110" fill="url(#av-glow)"/>
+
+  <!-- Tech Grid Background lines -->
+  <path d="M40 80 H280 M40 160 H280 M40 240 H280" stroke="#334155" stroke-opacity="0.3" stroke-width="1" stroke-dasharray="4 4"/>
+  <path d="M80 40 V280 M160 40 V280 M240 40 V280" stroke="#334155" stroke-opacity="0.3" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- Code brackets in background -->
+  <path d="M75 125 L45 160 L75 195" fill="none" stroke="#06b6d4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+  <path d="M245 125 L275 160 L245 195" fill="none" stroke="#a855f7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+
+  <!-- Stylized Coder Boy silhouette / avatar icon -->
+  <!-- Hood / Head -->
+  <circle cx="160" cy="120" r="54" fill="#1e293b" stroke="url(#av-accent)" stroke-width="3"/>
+  <!-- Glasses / Modern HUD visor -->
+  <rect x="130" y="108" width="60" height="18" rx="6" fill="#020617" stroke="#38bdf8" stroke-width="2"/>
+  <circle cx="145" cy="117" r="4" fill="#38bdf8"/>
+  <circle cx="175" cy="117" r="4" fill="#a855f7"/>
+  <line x1="152" y1="117" x2="168" y2="117" stroke="#38bdf8" stroke-width="1.5"/>
+
+  <!-- Smile / Expression -->
+  <path d="M152 142 Q160 148 168 142" fill="none" stroke="#94a3b8" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Hoodie / Shoulders -->
+  <path d="M96 240 C96 195 120 180 160 180 C200 180 224 195 224 240 Z" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+  <path d="M140 180 L160 215 L180 180" fill="none" stroke="#6366f1" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Brand initials overlay -->
+  <rect x="120" y="245" width="80" height="28" rx="8" fill="#020617" stroke="url(#av-accent)" stroke-width="1.5"/>
+  <text x="160" y="264" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700" fill="#38bdf8" text-anchor="middle" letter-spacing="1">MZ · 2026</text>
+</svg>
